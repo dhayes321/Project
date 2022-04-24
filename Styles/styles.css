@@ -1,0 +1,137 @@
+nav {
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {background-color: #f9d6fa;}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+#active {
+    background-color: darkseagreen;
+}
+.logo {
+    float: left; height: 60px; width: 60px;
+}
+header {
+    background-image: url(../Images/image_logo.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 50px;
+    color: rgb(18, 18, 19);
+    border: 1px solid blue;
+}
+#bigPic {
+    width: 100%;
+}
+.showimages {
+    float: left;
+    width: 30%;
+    border: 2px solid white;
+    margin:0 10px 0 10px ;
+}
+section.manager {
+    max-height: 350px;
+    overflow: auto;
+}
+.col_detail {
+    column-count: 2;
+    column-rule: 0.5px solid rgb(235, 14, 14);
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
+}
+footer ul li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+aside
+{
+    border: 1px solid redx;
+    float: right;
+    width: 18%;
+}
+#Maincontent {
+    float: left;
+    width: 80%;
+    border: 1px solid greenyellow;
+}
+aside ul li {
+    list-style-type: none;
+}
+aside ul li a {
+    color: turquoise;
+    text-decoration: none;   
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+p {
+    text-align: justify;
+    padding: 2px;
+}
+.course {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+.videoContent {
+    float: right;
+    width: 49px;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+.backgroundImageB {
+    background-image: url(..Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundImageC {
+    background-image: url(..Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundImageE {
+    background-image: url(..Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ main a {
+     color: red ;
+     text-decoration: none;
+ }

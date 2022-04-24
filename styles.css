@@ -1,0 +1,103 @@
+nav {
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {background-color: #f9d6fa;}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;}
+
+
+
+
+.logo {
+    float: left; height: 100px; width: 100px;
+}
+header {
+    background-image: url(../Images/image_logo.webp);
+    background-repeat: no-repeat;
+    background-size:auto
+    height: 100px;
+    color: rgb(18, 18, 19);
+    border: 1px solid blue;
+}
+#bigPic {
+    width: 20%;
+}
+}
+
+}
+
+}
+footer ul li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+aside
+{
+    border: 1px solid red;
+    float: right;
+    width: 18%;
+}
+#Maincontent {
+    float: left;
+    width: 80%;
+    border: 1px solid greenyellow;
+}
+aside ul li {
+    list-style-type: none;
+}
+aside ul li a {
+    color: turquoise;
+    text-decoration: none;   
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+p {
+    text-align: justify;
+    padding: 2px;
+}
+.course {
+    text-align: left;
+    border: 1px solid white;
+    padding: 10px;
+
+ }
+ }
+ .showimages{
+     width: "300"
+ }

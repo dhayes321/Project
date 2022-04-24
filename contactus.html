@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <title> Contact Form </title>
+    <meta charset="utf-8" /> <!--8 bit character encoding capable of encoding all possible characters -->
+    <meta name='description' content="Contact us, Send a query">
+    <meta name="keywords" content="Contact, Query, Email">
+
+    <link rel="stylesheet" type= "text/css" href="Styles/styles.css">
+        <link rel="icon" href="images/favicon/teacher.png" type="image/gif" sizes="16x16">
+
+        <title> Contact Form </title>
+    
+    <nav>
+        <ul>
+          <li> <a href="index.html" > Home </a> </li>  
+          <li> <a href="subjects.html" >Subjects</a> </li>
+          <li> <a href="about.html" >About</a> </li>
+          <li id="active"> <a href="contactus.html" >Contact Us</a> </li>
+        </ul> 
+    </nav>
+    
+    <style>
+        body{
+                font-family: sans-serif;
+                background-image: url(Images/image_contact_background.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 10px; }
+            header{
+                color: black;
+            }
+
+        main{
+                 margin: 15px 200px;
+                 padding: 20px;
+                 border: black solid 1px;
+                background: white;
+                color: black;
+                 min-height: 500px; }
+        header p{
+            font-style: italic;
+            background-color: white;
+            color: black;
+            text-align: center;
+            font-weight: 900; }
+
+            .required {
+                font-weight: bold;
+                color: red;  }
+            
+        label{
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            color: black;
+            text-align: left; }   
+
+        article{
+            text-align: right;
+            align-items: flex-end;
+        }
+            
+        fieldset{
+            color: black;
+            text-align: justify;
+        }
+        
+        input{
+            margin-left: 1em;
+            margin-bottom: .5em; 
+            width: 300px;
+            color: black;}
+
+            input[type="checkbox"] {width: 15px;}
+            input[type="radio"] {width: 10px;}
+
+            #button, #reset {
+                margin-top: .5em;
+                width: 8em;
+                background-color: greenyellow;
+                border: 2px solid black; }
+                nav {
+                background-color: grey;
+                padding: 5px;
+                border: 1px solid green;
+                border-radius: 5px;}
+                nav ul li {
+                list-style-type: none;
+                background-color: #b2b2b2;
+                display: inline;
+                color: black;
+                padding: 15px;}
+                nav ul li a {
+                color: black;
+                text-decoration: none;}
+            nav ul li:hover {background-color: #f9d6fa;}
+            nav ul {
+    text-align: center;
+    font-size: 1.2em;}
+            
+                
+    </style>
+
+        <body>
+            <header>
+                <p>Any queries or feedback please complete and submit</p>
+            </header>
+            <main>
+                <section>
+                    <h3> Please enter the following information: (form action= "http/foo.com" method= "get" </h3>
+                    <form action="http:/foo.com" method="get">
+                    <label for="first name">First Name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required> <br>
+                    <label for="last name">Last Name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" autofocus required> <br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="test@example.com" ><br>
+                    <label for="gender">Gender :</label>
+                    <label for="subject">Subject:<span class="required">*</span></label>
+                    <input type="text" name="subject" id="subject" autofocus required><br>
+                    <input type="radio" id="gender" name="gender" value="male" > Male
+                    <input type="radio" id="gender" name="gender" value="Female" > Female
+                    <input type="radio" id="gender" name="gender" value="other" checked> Other <br>
+                    
+                <fieldset>
+                    <input type="checkbox" id="internet" name="Internet" value="Internet" checked> Internet <br>
+                    <input type="checkbox" class="marginal" id="hear" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="marginal" id="hear" name="friend" value="friend"> Friend <br>
+                    <input type="checkbox" class="marginal" id="hear" name="add" value="Add"> Others <br>
+                </fieldset><br>
+                <label for="Message">Query : </label>
+                <textarea cols="50" rows="6"
+                id="message" name="message" placeholder="Your message must be les than 200 characters" data-maxlength="200"></textarea>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+                </form>
+                <p style="margin-left:130px"> <span class="required">*</span> <em> Indicates a required field</em></p>
+                </section>
+
+            <section class="map"
+            <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74560.40316447432!2d-8.55076968210503!3d54.26835465595927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee84ef3fb4b37%3A0xc76b5b21d985fb79!2sInstiti%C3%BAid%20Teicneola%C3%ADochta%2C%20Sligeach!5e0!3m2!1sen!2sie!4v1649024335164!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen =loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            <iframe width="400" height="200" style="border:0; float: left; margin-bottom: 3px;"
+            src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d74560.40316447432!2d-8.55076968210503!3d54.26835465595927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee84ef3fb4b37%3A0xc76b5b21d985fb79!2sInstiti%C3%BAid%20Teicneola%C3%ADochta%2C%20Sligeach!5e0!3m2!1sen!2sie!4v1649024335164!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen =loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        </section>
+        <section>
+            <article class="address"
+            <p><b> Where to find us</b></p>
+            Canteen</b><br />
+            Atlantic Techological University<br />
+            Sligo<br /> 
+            Ireland</p>
+        </section>
+
+            </main>
+        </body>
+    </head>
